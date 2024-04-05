@@ -1,0 +1,133 @@
+.containner {
+    display: flex;
+    overflow: hidden;
+        
+}
+
+.left {
+    width:20vw;
+
+}
+
+.right {
+    width: 80vw;
+}
+
+.logo_admin {
+    height: 123px;
+
+}
+.logo_admin img {
+ width: 145px;
+
+}
+
+
+.dashoard {
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.dashoarda {
+    text-align: center;
+    line-height: 48px;
+}
+
+.dashoard i.ti-angle-down {
+    margin-left: 20px;
+}
+
+.dashoard i.ti-bar-chart-alt {
+    margin-right: 20px;
+
+}
+
+.link {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 32px;
+    border-radius: 11px;
+    margin-bottom: 5px;
+    line-height: 32px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.i_right {
+    float: right;
+    margin-top: 16px;
+    margin-right: 15px;
+}
+
+.i_left {
+    float: left;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.nav {
+    width: 1200px;
+    /* background-color: rebeccapurple; */
+
+}
+
+.nav img {
+    width: 100%;
+
+}
+
+.info {
+    width: 54%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.popularRoom {
+    width: 95%;
+    margin: auto;
+
+}
+.popularRoom  img {
+    width: 100%;
+
+}
+.activity {
+    width: 95%;
+    margin: auto;
+}
+.activity  img {
+    width: 100%;
+
+}
+.links {
+    display: none;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+
+
+}
+.dashoard:hover ,.dashoarda:hover{
+    background-color: #f7f0f0 ;
+    cursor: pointer ;
+}
+.dashoarda:hover .links {
+    display: block;
+    opacity: 1;
+
+}
+.link:hover {
+    background-color: #d8cbcb;
+}

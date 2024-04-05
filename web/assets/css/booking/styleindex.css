@@ -1,0 +1,99 @@
+h4, h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, a{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.book-room{
+    margin-top: 100px;
+}
+
+.room-detail{
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #e2dbde;
+    max-width: 96%;
+    margin-bottom: 35px;
+}
+
+.room-detail img{
+    width: 100%;
+    padding: 10px;
+}
+
+.room-text{
+    padding: 20px;
+}
+
+.room-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.room-icon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.room-icon span {
+    font-size: 13px;
+    position: relative;
+    top: -3px;
+}
+
+.booking-form{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label, .form-group input {
+    margin-bottom: 10px;
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.cart-section{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.selected-room{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #e2dbde;
+}
+
+.booking-form, .cart-section{
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #e2dbde;
+    max-width: 417px;
+    margin-bottom: 40px;
+}
+
+.buttonBooking{
+    display: flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.room-info {
+    flex-grow: 1; /* Để phần tử này mở rộng và chiếm hết không gian còn lại */
+}
+
+ion-icon {
+    cursor: pointer; /* Hiển thị biểu tượng con trỏ khi di chuột qua biểu tượng */
+    margin-top: -90px;
+}

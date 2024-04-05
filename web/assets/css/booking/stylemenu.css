@@ -1,0 +1,32 @@
+#menu-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #3F3D3E;
+}
+
+#menu-wrapper li{
+   padding: 10px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#menu-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu-wrapper li:hover a {
+    color: orange;
+}
+
+#menu-wrapper ul.navbar-nav li {
+    margin-right: 80px; /* Khoảng cách giữa các mục menu */
+}
+
+#menu-wrapper ul.navbar-nav li:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách ở mục cuối cùng */
+}
+@media screen and (max-width: 768px) {
+	
+}

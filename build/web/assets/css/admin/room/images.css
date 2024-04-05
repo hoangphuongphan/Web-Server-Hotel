@@ -1,0 +1,54 @@
+.banner img {
+    width: 100%;
+    height: 550px; /* Giảm chiều cao */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    display: block;
+}
+
+.room-details {
+    border: 4px solid #f5f5f5;
+    padding: 0px;
+    margin-left: 10%; /* Margin 1 phần */
+    margin-right: 10%; /* Margin 1 phần */
+    background-color:  #FFFAFA;
+}
+
+.room-details-row {
+    border-bottom: 3px solid #f5f5f5;
+    padding: 0px;
+}
+.centered-title {
+    margin-top: 50px; /* Khoảng cách với banner */
+    margin-left: 10%; /* Margin 1 phần */
+
+}
+
+.room-details-row:last-child {
+    border-bottom: none;
+}
+
+#mainImage {
+    display: block;
+    max-width: 60%; /* Giảm kích thước */
+    height: auto;
+    margin: 20px auto; /* Căn giữa và tạo khoảng cách */
+}
+
+.thumbnails {
+    text-align: center; /* Căn giữa thumbnails */
+}
+
+.thumbnails img {
+    cursor: pointer;
+    width: 200px; /* Điều chỉnh kích thước */
+    height: auto;
+    margin: 10px 5px; /* Tăng khoảng cách */
+    border: 2px solid #f5f5f5;
+    display: inline-block; /* Hiển thị trên cùng một hàng */
+}
+
+.thumbnails img:hover {
+    border-color: #333;
+    transform: scale(1.1); /* Phóng to khi hover */
+    transition: transform 0.2s; /* Hiệu ứng chuyển đổi */
+}

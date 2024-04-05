@@ -1,0 +1,25 @@
+amenities-form table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .amenities-form th, .amenities-form td {
+        border: 1px solid #f5f5f5; /* Tạo viền cho hàng */
+        padding: 10px;
+        text-align: left;
+                    background-color:  #FFFAFA;
+
+    }
+
+    .amenities-form td {
+        display: flex;
+        flex-wrap: wrap; /* Cho phép các mục bọc sang dòng mới */
+        padding-left: 20px; /* Tạo khoảng cách với viền bên trái */
+    }
+
+    .amenities-form i {
+        margin-right: 15px; /* Khoảng cách giữa các biểu tượng */
+        flex-basis: 20%; /* Giả sử mỗi mục chiếm khoảng 20% chiều rộng, điều chỉnh con số này tùy ý */
+        margin-bottom: 15px; /* Khoảng cách dưới cùng của mỗi mục */
+        padding: 5px; /* Tạo không gian xung quanh nội dung trong mỗi mục */
+    }
